@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Cypro+Minoan&family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    transition: all .2s;
+}
+
+body {
+    background: #aebac7;
+    padding: 0 20px;
+}
+
+.container {
+    margin: 50px auto;
+    background: #eee;
+    border-radius: 55px;
+    max-width: 400px;
+    padding: 20px 45px;
+    box-shadow: 0 0 20px rgb(152, 255, 246);
+}
+
+.container h1 {
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 1100;
+}
+
+.inputs {
+    width: 100%;
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.inputs input {
+    border: none;
+    width: 50%;
+    padding: 5px 15px;
+    border-radius: 10px;
+    letter-spacing: 1px;
+    font-family: cursive;
+    font-weight: 550;
+}
+
+.inputs input:first-of-type {
+    margin-right: 10px;
+}
+
+/* input::-webkit-outer-spin-button, */
+input::-webkit-inner-spin-button { 
+  -webkit-appearance: none;
+}
+
+.inputs input:focus {
+    outline: none;
+    box-shadow: inset 0 0 7px rgb(144, 198, 205);
+}
+
+.buttons {
+    width: 100%;
+    /* display: flex; */
+    margin-bottom: 10px;
+}
+
+.buttons .row {
+    display: flex;
+    margin-bottom: 5px;
+}
+.buttons .row button {
+    width: 50%;
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+    background: rgb(125, 237, 76);
+}
+
+#mul {
+    padding: 7px 5px 3px 5px;
+}
+
+.buttons button:nth-child(odd) {
+    margin-right: 10px;
+}
+
+.buttons button:hover {
+    background: rgb(66, 216, 139);
+    cursor: pointer;
+}
+
+.buttons button:focus {
+    box-shadow: 0 0 15px rgb(255, 209, 58);
+    border: 1px solid rgb(85, 183, 43);
+}
+
+.submit {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.submit button {
+    text-align: center;
+    width: 100%;
+    padding: 8px 5px;
+    border: none;
+    border-radius: 10px;
+    background: rgb(255, 200, 72);
+    font-size: 16px;
+    /* font-weight: bold; */
+    letter-spacing: 1px;
+}
+
+.submit button:hover {
+    background: rgb(220, 175, 71);
+    cursor: pointer;
+
+}
+
+.submit button:focus {
+    box-shadow: 0 0 10px rgb(222, 176, 66);
+}
+
+.result {
+    width: 100%;
+    margin-top: 15px;
+    text-align: center;
+}
+.result h3 {
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.result p {
+    padding-top: 10px;
+    color: rgba(0, 0, 0, 0.2);
+}
